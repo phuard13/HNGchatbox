@@ -7,7 +7,8 @@ var question = [
 	["who are you", "are you human", "are you bot", "are you human or bot"],
 	["who created you", "who made you"],
 	["your name please",  "your name", "may i know your name", "what is your name"],
-	["bye", "good bye", "goodbye", "see you later"]
+    ["thanks","thank you"],
+    ["bye","good bye", "goodbye", "see you later"]
 ];
 var ans = [
     ["Hi are you part of HNG7","Welcome to HNGi7 internship"],
@@ -18,7 +19,8 @@ var ans = [
 	["I am just a bot", "I am a bot. What are you?"],
 	["Fouhad", "javascript"],
 	["I am nameless", "I don't have a name"],
-	["Bye", "Goodbye", "See you later"]
+    ["You Welcome"],
+    ["Enjoy the rest of your day"]
 ];
 var alternative = ["Haha...", "Eh..."];
 document.querySelector("#input").addEventListener("keypress", function(e){
